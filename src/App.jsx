@@ -1,14 +1,15 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <h1 className="text-16xl text-pink-200 font-bold underline text-center">
-      Hello GusBeing !!
-    </h1>
+    <div className="max-w-7xl relative">
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   );
 }
 
