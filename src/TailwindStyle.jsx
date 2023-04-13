@@ -1,7 +1,7 @@
 export const head =
-  "w-screen flex justify-center content-between gap-20 bg-desertSand";
+  "w-screen flex flex-col sm:flex-row justify-center content-between gap-20 bg-desertSand";
 export const main =
-  "w-screen bg-seaShell flex flex-row justify-center content-between";
+  "w-screen bg-seaShell flex flex-col sm:flex-row justify-center content-between";
 export const foot =
   "bg-desertSand w-screen flex flex-col justify-center content-between items-center";
 export const h2 = "text-3xl text-wenge my-3 font-semibold";

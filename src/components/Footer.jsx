@@ -6,21 +6,21 @@ import github from "../icon/github.png";
 
 function Footer() {
   return (
-    <footer className={style.foot}>
+    <footer id="contact" className={style.foot}>
       <h2 className={style.footH2}>Get in touch!</h2>
       <h3>ghostridergusze@gmail.com | 084-118-0888</h3>
       <div className={style.icon}>
         <a href="https://www.facebook.com/GhostRiderGusZe/" target="blank">
-          <img src={fb} alt="link in" className="w-5"></img>
+          <img src={fb} alt="facebook" className="w-5"></img>
         </a>
         <a href="https://www.instagram.com/ghostridergusze/?igshid=YmMyMTA2M2Y%3D" target="blank">
-          <img src={ig} alt="link in" className="w-5"></img>
+          <img src={ig} alt="instagram" className="w-5"></img>
         </a>
         <a href="https://th.linkedin.com/" target="blank">
           <img src={LinkedIn} alt="link in" className="w-5"></img>
         </a>
         <a href="https://github.com/Gusbell" target="blank">
-          <img src={github} alt="link in" className="w-5"></img>
+          <img src={github} alt="github" className="w-5"></img>
         </a>
       </div>
     </footer>
